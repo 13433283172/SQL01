@@ -1,0 +1,18 @@
+
+
+第一题：
+<script>
+      string ds="2020/2/20 10:10:20":
+      DateTime dt=Datetime.parse(ds):
+      dt=dt.AddDays(25).AddMinutes(480):
+      Console.WriteLine($"25天后：{dt.YEAS}年{dt.month}月{dt，Day}日{dt.TimeofDAY}"):
+</script>
+
+
+第二题：
+          int？[]arr={3,7,null,2,5};
+          int?  s=1;
+          foreach(int? a in arr)
+          s*=a??1;
+           Console.WriteLine(s)
+           
